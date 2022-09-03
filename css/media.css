@@ -1,0 +1,240 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+    #footer .footer--general .have .lose button {
+        font-size: 8px;
+    }
+    #footer .footer--general .have .lose input {
+        width: 196px;
+    }
+    #footer .footer--general .have .lose p {
+         font-size: 13px;
+     }
+    #footer .footer--general .have {
+        justify-content: space-evenly;
+        margin-left: 125px;
+    }
+
+}
+@media (max-width: 992px) {
+    #footer .footer--general .have {
+        margin-left: 95px;
+    }
+}
+@media (max-width: 768px) {
+    #header .navbar--general__block a {
+        font-size: 8px;
+    }
+    #header .navbar--general__save a {
+        font-size: 10px;
+    }
+    #hero .hero--general__block h1 {
+        font-size: 22px;
+    }
+    #hero .hero--general__block p {
+        font-size: 14px;
+    }
+    #hero .hero--general__block button {
+        font-size: 8px;
+    }
+    #hero .hero--general__gen img {
+        width: 46%;
+    }
+    #hero {
+        width: 95%;
+    }
+    #hero {
+        width: 100%;
+    }
+    #footer .footer--general .have {
+        margin-left: 0;
+    }
+    #footer .footer--general .have .lose p {
+        font-size: 10px;
+    }
+    #footer .footer--general .have .lose input {
+        width: 97px;
+    }
+    #footer .footer--general .have .lose button {
+        font-size: 0;
+    }
+    #seem .seem--general__save .help .stand p {
+        font-size: 20px;
+    }
+    #seem .seem--general__save .help .sid img {
+        width: 11%;
+    }
+    #seem .seem--general__save .help .sid button {
+        font-size: 7px;
+    }
+    #seem .seem--general__save .help .sid .meet h2 {
+        font-size: 15px;
+    }
+    #seem .seem--general__save .help .sid .meet p {
+        font-size: 10px;
+    }
+    #tilt .tilt--general .tilt--general__block h1 {
+        font-size: 21px;
+    }
+    #hero {
+        width: 96%;
+    }
+    #save .save--general__block .seem img {
+        width: 60%;
+    }
+    #save .save--general__block .help img {
+        width: 51%;
+    }
+    #save .save--general__block .show img {
+        width: 60%;
+    }
+    #seem .seem--general__block .play img {
+        width: 73%;
+    }
+    #aboud .aboud--general .get .make img {
+        width: 76%;
+    }
+    #aboud .aboud--general .get .make h1 {
+        font-size: 20px;
+    }
+    #aboud .aboud--general .get .make p {
+        font-size: 12px;
+    }
+    #aboud .aboud--general .get .make button {
+        font-size: 8px;
+    }
+    #footer .footer--general .have .lose p {
+        padding: 9px 16px;
+    }
+    #hear .hear--general .life button {
+        font-size: 9px;
+    }
+    }
+@media (max-width: 576px) {
+    .navbar--general__block{
+        display: none;
+    }
+    .navbar--general__save{
+        display: none;
+    }
+    #hero .hero--general {
+        padding-top: 24px;
+    }
+    #hero .hero--general__block h1 {
+        font-size: 14px;
+    }
+    #hero .hero--general__block p {
+        font-size: 11px;
+    }
+    #hero .hero--general__block button {
+        font-size: 5px;
+    }
+    #save .save--general__block .seem img {
+        width: 49%;
+    }
+    #save .save--general__block .help img {
+        width: 45%;
+    }
+    #save .save--general__block .show img {
+        width: 47%;
+    }
+    #save .save--general__become h2 {
+        font-size: 21px;
+    }
+    #save .save--general__become button {
+        font-size: 9px;
+    }
+    #aboud .aboud--general .get .make img {
+        width: 49%;
+    }
+    #aboud .aboud--general .get .make h1 {
+        font-size: 15px;
+    }
+    #aboud .aboud--general .get {
+        flex-direction: column;
+    }
+    #aboud .aboud--general .get .make button {
+        font-size: 5px;
+    }
+    #aboud .aboud--general .get .make img {
+        width: 36%;
+    }
+    #footer .footer--general .have .lose p {
+        padding: 6px 16px;
+    }
+    #footer .footer--general .have {
+        flex-direction: column;
+    }
+}
+@media (max-width: 451px) {
+    #hero .hero--general__block h1 {
+        font-size: 11px;
+    }
+    #hero .hero--general__block p {
+        font-size: 9px;
+    }
+    #save .save--general__become h2 {
+        font-size: 16px;
+    }
+    #title .title--general__block .stand h2 {
+        font-size: 13px;
+    }
+    #title .title--general__block .stand p {
+        font-size: 10px;
+    }
+    #title .title--general .sid button {
+        font-size: 11px;
+    }
+    #tilt .tilt--general .tilt--general__block .be .have h2 {
+        font-size: 15px;
+    }
+    #tilt .tilt--general .tilt--general__block .be .have p {
+        font-size: 12px;
+    }
+    #gen .gen--general .go .say p {
+        font-size: 9px;
+    }
+    #gen .gen--general .go .say h2 {
+        font-size: 14px;
+    }
+    #seem .seem--general__save .help .stand p {
+        font-size: 12px;
+    }
+    #seem .seem--general__save {
+        flex-direction: column;
+    }
+}
+@media (max-width: 408px) {
+    #save .save--general__become button {
+        font-size: 5px;
+    }
+    #gen .gen--general .go .say p {
+        font-size: 7px;
+    }
+    #tilt .tilt--general .tilt--general__block .do button {
+        font-size: 7px;
+    }
+    #tilt .tilt--general .tilt--general__block .be .have p {
+        font-size: 10px;
+    }
+    #hear .hear--general .life {
+        flex-direction: column;
+    }
+    #hear .hear--general .life button:hover {
+        margin-bottom: 50px;
+    }
+    #seem .seem--general__save .help .sid {
+        flex-direction: column;
+    }
+}
+@media (max-width: 376px) {
+
+}
+@media (max-width: 320px) {
+}

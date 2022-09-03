@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header .navbar--general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar--general__block a {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #011F3A;
+  padding: 20px;
+  transition: 0.4s;
+}
+#header .navbar--general__block:hover {
+  color: red;
+}
+#header .navbar--general__save a {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #011F3A;
+  padding: 10px;
+}
+
+#hero {
+  background: #F2AE4D;
+  width: 100%;
+}
+#hero .hero--general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+#hero .hero--general__block h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #011F3A;
+}
+#hero .hero--general__block p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #011F3A;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#hero .hero--general__block button {
+  margin: 0 15px;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: 2px solid #011F3A;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#hero .hero--general__block button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  border-radius: 44px;
+  border: 1px solid #011F3A;
+}
+#hero .hero--general__gen img {
+  width: 80%;
+}
+
+#save .save--general__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#save .save--general__block .seem {
+  display: flex;
+}
+#save .save--general__block .seem img {
+  width: 90%;
+}
+#save .save--general__block .seem p {
+  padding-top: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: #A1A1A1;
+}
+#save .save--general__block .help {
+  display: flex;
+}
+#save .save--general__block .help img {
+  width: 90%;
+}
+#save .save--general__block .help p {
+  padding-top: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: #A1A1A1;
+}
+#save .save--general__block .show {
+  display: flex;
+}
+#save .save--general__block .show img {
+  width: 90%;
+}
+#save .save--general__block .show p {
+  padding-top: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: #A1A1A1;
+}
+#save .save--general__become {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+  background: #A1A1A1;
+}
+#save .save--general__become h2 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #011F3A;
+}
+#save .save--general__become button {
+  margin: 0 15px;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: 2px solid #011F3A;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#save .save--general__become button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  border-radius: 44px;
+  border: 1px solid #011F3A;
+}
+
+#title .title--general {
+  padding-bottom: 150px;
+}
+#title .title--general__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#title .title--general__block .stand img {
+  width: 90%;
+}
+#title .title--general__block .stand h2 {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+  padding-bottom: 15px;
+}
+#title .title--general__block .stand p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #777777;
+}
+#title .title--general .sid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+#title .title--general .sid p {
+  font-weight: 700;
+  font-size: 15px;
+  color: #A1A1A1;
+}
+#title .title--general .sid button {
+  margin: 0 15px;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: 2px solid #011F3A;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#title .title--general .sid button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  border-radius: 44px;
+  border: 1px solid #011F3A;
+}
+
+#tilt .tilt--general .tilt--general__block {
+  height: 774px;
+  background: #72BDA3;
+  box-shadow: 0 14px 44px rgba(143, 143, 143, 0.25);
+  border-radius: 0;
+}
+#tilt .tilt--general .tilt--general__block h1 {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  color: #011F3A;
+  padding-top: 50px;
+}
+#tilt .tilt--general .tilt--general__block .be {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#tilt .tilt--general .tilt--general__block .be .have {
+  padding-top: 100px;
+}
+#tilt .tilt--general .tilt--general__block .be .have img {
+  width: 90%;
+}
+#tilt .tilt--general .tilt--general__block .be .have h2 {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+  text-align: center;
+}
+#tilt .tilt--general .tilt--general__block .be .have p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #3D5675;
+  text-align: center;
+  padding-top: 20px;
+}
+#tilt .tilt--general .tilt--general__block .do {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+#tilt .tilt--general .tilt--general__block .do button {
+  margin: 0 15px;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: 2px solid #011F3A;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#tilt .tilt--general .tilt--general__block .do button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  border-radius: 44px;
+  border: 1px solid #011F3A;
+}
+
+#gen .gen--general {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+#gen .gen--general h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #011F3A;
+}
+#gen .gen--general .go {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+#gen .gen--general .go .say img {
+  width: 90%;
+}
+#gen .gen--general .go .say h2 {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+}
+#gen .gen--general .go .say p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #A1A1A1;
+  padding-top: 20px;
+}
+
+#aboud .aboud--general {
+  padding-bottom: 100px;
+}
+#aboud .aboud--general .get {
+  height: 610px;
+  background: #FFCA3A;
+  box-shadow: 0 14px 44px rgba(143, 143, 143, 0.25);
+  border-radius: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#aboud .aboud--general .get .make img {
+  width: 90%;
+}
+#aboud .aboud--general .get .make h1 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #011F3A;
+}
+#aboud .aboud--general .get .make p {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #3D5675;
+  padding: 30px;
+}
+#aboud .aboud--general .get .make button {
+  margin: 0 105px;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: 2px solid #011F3A;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#aboud .aboud--general .get .make button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  border-radius: 44px;
+  border: 1px solid #011F3A;
+}
+
+#seem .seem--general {
+  padding-bottom: 100px;
+}
+#seem .seem--general h1 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #011F3A;
+}
+#seem .seem--general__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#seem .seem--general__block .play {
+  padding-top: 100px;
+}
+#seem .seem--general__block .play img {
+  width: 90%;
+  padding-top: 20px;
+}
+#seem .seem--general__save {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+}
+#seem .seem--general__save .run img {
+  width: 90%;
+}
+#seem .seem--general__save .help .stand p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #011F3A;
+}
+#seem .seem--general__save .help .sid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+}
+#seem .seem--general__save .help .sid img {
+  width: 20%;
+}
+#seem .seem--general__save .help .sid .meet h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #011F3A;
+}
+#seem .seem--general__save .help .sid .meet p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #A1A1A1;
+}
+#seem .seem--general__save .help .sid button {
+  margin: 0 105px;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: 2px solid #011F3A;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#seem .seem--general__save .help .sid button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  border-radius: 44px;
+  border: 1px solid #011F3A;
+}
+
+#hear .hear--general {
+  padding-bottom: 200px;
+}
+#hear .hear--general h1 {
+  font-weight: 700;
+  font-size: 31px;
+  text-align: center;
+  color: #011F3A;
+}
+#hear .hear--general .life {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+#hear .hear--general .life button {
+  margin: 0 105px;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: 2px solid #011F3A;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#hear .hear--general .life button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  border-radius: 44px;
+  border: 1px solid #011F3A;
+}
+
+#footer .footer--general .have {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+#footer .footer--general .have .lose p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #3D5675;
+  padding: 10px 50px;
+}
+#footer .footer--general .have .lose img {
+  margin-left: 50px;
+}
+#footer .footer--general .have .lose input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 50px;
+}
+#footer .footer--general .have .lose button {
+  margin: 0 105px;
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: 2px solid #011F3A;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#footer .footer--general .have .lose button:hover {
+  transform: scale(1.1);
+  background: #3D5675;
+  border-radius: 44px;
+  border: 1px solid #011F3A;
+}
+
+/*# sourceMappingURL=style.css.map */
